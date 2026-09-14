@@ -1,0 +1,49 @@
+body{
+  color: darkred;
+  background-color: rgb(255, 245, 189);
+}
+
+h1{
+  text-align: center;
+  color:darkblue;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+}
+
+table{
+  border: 2px solid #555555;
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+td {
+  border: none;
+  border-bottom: 2px solid #999999;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+th {
+  color: darkgreen;
+  border: none;
+  border-bottom: 2px solid #505050;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+
+a:hover{
+  color: black;
+}
